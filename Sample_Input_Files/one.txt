@@ -1,0 +1,14 @@
+program
+int a, b;
+int c;
+begin
+  read(a);
+  b <- a * 2;
+  write( b - 3 );
+  c <- 4;
+  while( c >= 1 )
+    begin
+      c<-c-1;
+    end
+end.
+

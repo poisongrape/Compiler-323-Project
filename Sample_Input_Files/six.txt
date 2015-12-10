@@ -1,0 +1,27 @@
+program
+int a, b;
+begin
+  read(a);
+  read(b);
+  if( a >= 1 )
+    begin
+	if(b<10)
+	  begin
+      		write(a);
+          end
+	a <- a - 1;
+    end
+  elseif(b < 20)
+    begin
+      write(a);
+    end
+  elseif(b < 50)
+    begin
+      b <- 10;
+    end
+  else
+    begin
+      a <- 5;
+    end
+end.
+
